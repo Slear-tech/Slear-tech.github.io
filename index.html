@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Webpage Title -->
+        <title>PALAWAN | Spots</title>
+        
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="css/swiper.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- Favicon  -->
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVJiR5623sbt8bV6VodWj9LQxEdqst9udn5w&usqp=CAU">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbarExample">
+        
+        <!-- Navigation -->
+        <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container">
+
+                <a class="navbar-brand logo-text" href="index.html">PALAWAN</a>
+
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#spot">Tourist Spot</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item social-icons">
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/groups/897878486913805/?hoisted_section_header_type=recently_seen&multi_permalinks=6301313243236942-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://twitter.com/PalawanTOURISTS">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+        
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1 class="h1-large">PALAWAN TOURIST SPOT <br><span class="replace-me">Diving, Hiking, Ziplining</span></h1>
+                            <p class="p-large">Palawan is a beautiful province in the Philippines known for its stunning beaches, crystal clear waters, and breathtaking natural landscapes.</p>
+                            <a class="btn-solid-lg" href="#intro">Discover</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </header> <!-- end of header -->
+        <!-- end of header -->
+
+
+        <!-- Intro -->
+        <div id="intro" class="basic-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="text-container">
+                            <div class="section-title">INTRO</div>
+                            <h2>Discover Paradise on Earth: Palawan - The Philippines' Hidden Gem</h2>
+                            <p>Discover the hidden gem of the Philippines and experience a true paradise on earth in Palawan, with its stunning natural beauty, crystal-clear waters, and diverse range of attractions including world-class diving, adventure activities, and a rich culinary scene; it's the perfect destination for an unforgettable tropical getaway.</p>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-7">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/intro-palawan.jpg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of intro -->
+
+        <!-- spots -->
+        <div id="spot" class="filter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">DESTINATION</div>
+                        <h2 class="h2-heading">PALAWAN TOURIST SPOTS</h2>
+                        <p class="p-heading">Discover the Top Attractions in Palawan, from Natural Wonders to Cultural Gems</p>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <!-- Filter -->
+                        <div class="button-group filters-button-group">
+                            <button class="button is-checked" data-filter="*">ALL</button>
+                            <button class="button" data-filter=".hiking">HIKING</button>
+                            <button class="button" data-filter=".diving">DIVING</button>
+                            <button class="button" data-filter=".ziplining">ZIPLINING</button>
+                        </div> <!-- end of button group -->
+                        <div class="grid">
+                            <div class="element-item diving">
+                                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                                    <div class="element-item-overlay"><span>CORON BAY</span></div>
+                                    <img style="height: 272px; width: 100%;" class="img-fluid" src="images/coron-bay.jpg" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item diving">
+                                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                                    <div class="element-item-overlay"><span>EL Nido</span></div>
+                                    <img style="height: 272px;" class="img-fluid" src="https://i0.wp.com/www.tikigo.com/wp-content/uploads/best-island-hopping-tour-el-nido-palawan.jpg?fit=807%2C595&ssl=1" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item hiking">
+                                <a data-bs-toggle="modal" data-bs-target="#modal3">
+                                    <div class="element-item-overlay"><span>Mount Tapyas</span></div>
+                                    <img style="height: 272px; width: 100%;" class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdPz2XJbiGFJ6ojWJOUqZ8iHsgSWpn120S3Q&usqp=CAU" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item hiking">
+                                <a data-bs-toggle="modal" data-bs-target="#modal4">
+                                    <div class="element-item-overlay"><span>Taraw Cliff Trail</span></div>
+                                    <img style="height: 272px; width: 100%;" class="img-fluid" src="https://www.jonnymelon.com/wp-content/uploads/2019/11/taraw-cliff-10-e1573314317929.jpg" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item ziplining">
+                                <a data-bs-toggle="modal" data-bs-target="#modal5">
+                                    <div class="element-item-overlay"><span>Puerto Princesa Ziplining</span></div>
+                                    <img style="height: 272px; width: 100%;" class="img-fluid" src="https://www.teacaketravels.com/wp-content/uploads/2015/02/Sabang-X-Zipline-Line.jpg" alt="alternative">
+                                </a>
+                            </div>
+                            <div class="element-item ziplining">
+                                <a data-bs-toggle="modal" data-bs-target="#modal6">
+                                    <div class="element-item-overlay"><span>El Nido Ziplining</span></div>
+                                    <img style="height: 272px; width: 100%;" class="img-fluid" src="http://www.thisislandlife.com/wp-content/uploads/2017/01/This-Island-Life-El-Nido-Palawan-Island-Philippines-wm-27.jpg" alt="alternative">
+                                </a>
+                            </div>
+                            
+                        </div> <!-- end of grid -->
+                        <!-- end of filter -->
+                        
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of filter -->
+        <!-- end of spots -->
+
+
+        <!-- Spot Modals -->
+        <div class="projects-modals">
+
+            <!-- Modal -->
+            <div id="modal1" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img style="height: 500px; width: 100%;"  class="img-fluid" src="images/coron-bay.jpg" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>CORON BAY</h3>
+                                <hr>
+                                <p>Coron Bay is a natural harbor located in the northern part of the Calamian Islands in Palawan, Philippines. It is known for its stunning landscapes of crystal-clear blue waters, limestone cliffs, and lush vegetation. The bay is a popular destination for diving and snorkeling, as it is home to numerous shipwrecks from World War II that have become artificial reefs and provide a unique underwater experience. In addition to diving, visitors can enjoy island hopping, swimming in the calm waters, and exploring nearby beaches. With its beautiful natural scenery and exciting activities, Coron Bay is a must-visit destination in Palawan.</p>
+                                
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal2" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="https://i0.wp.com/www.tikigo.com/wp-content/uploads/best-island-hopping-tour-el-nido-palawan.jpg?fit=807%2C595&ssl=1" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>EL NIDO</h3>
+                                <hr>
+                                <p>El Nido is a coastal town located in the northern part of Palawan, Philippines. It is known for its stunning beaches, clear blue waters, and dramatic limestone cliffs. El Nido is a popular destination for island hopping, which involves visiting nearby islands and exploring hidden lagoons, secret beaches, and snorkeling spots. The town is also home to a vibrant nightlife, with a range of bars and restaurants serving local and international cuisine. In addition to island hopping, visitors can also go kayaking, scuba diving, and hiking in the lush rainforest. With its natural beauty and range of activities, El Nido is a must-visit destination for anyone traveling to Palawan.</p>
+                                
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div><!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal3" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img style="height: 500px; width: 100%;" class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdPz2XJbiGFJ6ojWJOUqZ8iHsgSWpn120S3Q&usqp=CAU" alt="alternative" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>Mount Tapyas</h3>
+                                <hr>
+                                <p>Mount Tapyas is a mountain located in Coron, Palawan, Philippines. It stands at 210 meters high and offers a stunning panoramic view of the town and the surrounding islands. Visitors can climb up the mountain's staircase, which has over 700 steps, to reach the top and enjoy the breathtaking view of the sunset. Along the way, there are small stations where visitors can take a rest, catch their breath, and take photos of the view. At the top of the mountain, visitors can also find a large metal cross, which is beautifully illuminated at night. Mount Tapyas is a popular destination in Coron and a must-visit for those looking for a stunning view and a bit of exercise.</p>
+                                
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div><!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal4" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img style="height: 500px; width: 100%;"  class="img-fluid" src="https://www.jonnymelon.com/wp-content/uploads/2019/11/taraw-cliff-10-e1573314317929.jpg" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>TARAW CLIFF TRAIL</h3>
+                                <hr>
+                                <p>Taraw Cliff Trail is a popular hiking trail located in El Nido, Palawan, Philippines. The trail takes visitors on a challenging climb up the Taraw Peak, which stands at 230 meters high. The hike can be strenuous and requires a good level of fitness, but it rewards visitors with stunning panoramic views of El Nido and its surroundings. Along the way, visitors will need to navigate through limestone cliffs, sharp rocks, and steep drops, making the climb both thrilling and a little dangerous. At the top, visitors can enjoy the incredible view of Bacuit Bay and the surrounding islands. The Taraw Cliff Trail is a popular destination for adventure-seekers and hikers looking for a challenging climb and a unique view of El Nido.</p>
+                                
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal5" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="https://www.teacaketravels.com/wp-content/uploads/2015/02/Sabang-X-Zipline-Line.jpg" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>PUERTO PRINCESA ZIPLINING</h3>
+                                <hr>
+                                <p>Puerto Princesa Ziplining is a thrilling adventure activity located in Puerto Princesa, Palawan, Philippines. The zipline is located at the Mitra Ranch, which is about 12 kilometers away from the city center. The zipline is 1.3 kilometers long and offers an exhilarating ride over lush green forests and scenic landscapes. Visitors can enjoy the breathtaking view of the surrounding mountains, forests, and sea while flying over the trees at high speed. </p>
+                                
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div><!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+
+            <!-- Modal -->
+            <div id="modal6" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col-lg-8">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="http://www.thisislandlife.com/wp-content/uploads/2017/01/This-Island-Life-El-Nido-Palawan-Island-Philippines-wm-27.jpg" alt="alternative">
+                                </div> <!-- end of image-container -->
+                            </div> <!-- end of col -->
+                            <div class="col-lg-4">
+                                <h3>EL NIDO ZIPLINING</h3>
+                                <hr>
+                                <p>El Nido Ziplining is a popular adventure activity located in El Nido, Palawan, Philippines. The zipline is located in Las Cabanas Beach and takes visitors on a thrilling ride across a stunning tropical landscape. The zipline is 750 meters long and offers a bird's eye view of the beach, towering cliffs, and crystal-clear waters of the bay. Visitors can enjoy the thrill of flying at high speed while admiring the breathtaking natural scenery. The zipline is designed for all ages and is a must-try activity for anyone looking for adventure in El Nido.</p>
+                                <button type="button" class="btn-outline-reg" data-bs-dismiss="modal">Close</button>
+                            </div> <!-- end of col -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+            <!-- end of modal -->
+        </div> <!-- end of projects-modals -->
+        <!-- end of projects modals -->
+
+        <!-- About -->
+        <div id="about" class="counter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-xl-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="https://clairesfootsteps.com/wp-content/uploads/2020/01/shutterstock_641355409.jpg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-7 col-xl-6">
+                        <div class="text-container">
+                            <div class="section-title">ABOUT</div>
+                            <h2>We Deliver Growth</h2>
+                            <p>Discover Palawan's hidden gems with our website. We focus on minimalist tourist spots for hiking, diving, and ziplining. Find the best hiking trails, dive sites, and thrilling zipline courses. We offer practical information on accommodations and dining options to help you make the most of your visit. Start your adventure today!</p>
+                        </div> <!-- end of text-container -->      
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of counter -->
+        <!-- end of about -->
+
+
+        <!-- Contact -->
+        <div id="contact" class="form-2 bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <div class="section-title">CONTACT</div>
+                            <h2>Get In Touch Through The Form Or Use The Info Below</h2>
+                            <p>Please feel free to get in touch with us by filling out the form below or using the contact information provided to learn more about our services and how we can assist you.</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="address"><i class="fas fa-map-marker-alt"></i>Calle Hama, Barangay Buena Suerte, El Nido, Palawan</li>
+                                <li><i class="fas fa-phone"></i><a href="tel:003024630820">+63 9123456789</a></li>
+                                <li><i class="fas fa-phone"></i><a href="tel:003024630820">+63 9132646164</a></li>
+                                <li><i class="fas fa-envelope"></i><a href="mailto:office@contact.com">palawantour@site.com</a></li>
+                            </ul>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+
+                        <!-- Contact Form -->
+                        <form>
+                            <div class="mb-4 form-floating">
+                                <input type="text" class="form-control" id="floatingInput4" placeholder="Name">
+                                <label for="floatingInput4">Name</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <input type="email" class="form-control" id="floatingInput5" placeholder="name@example.com">
+                                <label for="floatingInput5">Email</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <textarea class="form-control" id="floatingTextarea1" placeholder="Your message here" rows="4"></textarea>
+                                <label for="floatingTextarea1">Message</label>
+                            </div>
+                            <div class="mb-4 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                <label class="form-check-label" for="exampleCheck2">I agree with the <a href="">Privacy Policy</a> and <a href="">Terms & Conditions</a></label>
+                            </div>
+                            <button type="submit" class="form-control-submit-button">Submit</button>
+                        </form>
+                        <!-- end of contact form -->
+                        
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of form-2 -->
+        <!-- end of contact -->
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-col first">
+                            <h6>About Website</h6>
+                            <p class="p-small">Our website is your ultimate guide to the top tourist spots in Palawan, the hidden gem of the Philippines. From pristine beaches and turquoise lagoons to spectacular diving sites and awe-inspiring natural wonders, we've got it all covered. </p>
+                        </div> <!-- end of footer-col -->
+                        <div class="footer-col second">
+                            <h6>Links</h6>
+                            <ul class="list-unstyled li-space-lg p-small">
+                                <li>Important: <a href="">Terms & Conditions</a>, <a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div> <!-- end of footer-col -->
+                        <div class="footer-col third">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://www.facebook.com/groups/897878486913805/?hoisted_section_header_type=recently_seen&multi_permalinks=6301313243236942-link">
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://twitter.com/PalawanTOURISTS">
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <p class="p-small">Get In Touch Through Email <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=new"><strong>palawantour@site.com</strong></a></p>
+                        </div> <!-- end of footer-col -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->  
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">Copyright © Frakeys Cadiex Baudelaire</p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
+        
+
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn">
+            <img src="images/up-arrow.png" alt="alternative">
+        </button>
+        <!-- end of back to top button -->
+            
+        <!-- Scripts -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
+        <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->   
+    </body>
+</html>
